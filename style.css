@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	padding: 0px;
+}
+
+body{
+	background-color:burlywood;
+}
+
+.container{
+	width: 300px;
+	height: 200px;
+	padding:0px;
+	text-align: center;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	
+}
+
+h2{
+	width: 565px;
+	height: auto;
+	background-color: lightslategray;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+	margin-top: 10px;
+	padding: 10px 0px 10px 30px;
+}
+
+table{
+	width: 600px;
+	height: 400px;
+	background-color:royalblue;
+	padding: 0px 0px 30px 0px;
+	
+	
+}
+
+th{
+	padding: 20px;
+	text-align: center;
+}
+tr{
+	width: 400px;
+	height: 40px;
+	padding: 10px;
+	padding: 0px 10px 0px 10px;
+	
+	
+}
+
+td{
+	width: 300px;
+	height: 30px;
+	padding: 10px 10px 10px 10px;
+	
+	
+	
+}
+table tr td:hover{
+	
+	border: 5px double rgb(170, 245, 170);
+}
